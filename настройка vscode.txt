@@ -1,0 +1,68 @@
+плагины
+Auto Rename Tag
+Babel JavaScript
+Backticks
+Beautify css/sass/scss/less
+eCSStractor for VSCode
+ES7+ React/Redux/React-Native snippets
+HTML to CSS autocompletion
+Import Cost
+Live Server
+Material Icon Theme
+Path Autocomplete
+Path Intellisense
+PHP Intelephense
+phpfmt - PHP formatter
+React Style Helper
+Russian Language Pack for Visual Studio Code
+Sass (.sass only)
+SCSS Formatter
+SCSS IntelliSense
+shell-format
+Winter is Coming Theme
+
+Настройки vscode
+
+{
+	"workbench.startupEditor": "none",
+	"workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
+	"workbench.iconTheme": "material-icon-theme",
+	"files.autoSave": "onFocusChange",
+	"editor.fontSize": 18,
+	"editor.tabSize": 2,
+	"editor.smoothScrolling": true,
+	"editor.suggestSelection": "first",
+	"editor.snippetSuggestions": "bottom",
+	"editor.cursorBlinking": "expand",
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"terminal.integrated.fontSize": 18,
+	"terminal.integrated.tabs.enabled": false,
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.integrated.enablePersistentSessions": false,
+	"path-autocomplete.pathMappings": {
+		"@img": "${folder}/src/images",
+		"@scss": "${folder}/src/scss",
+		"@js": "${folder}/src/js"
+	},
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"[scss]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+	"ecsstractor_port.bem_nesting": true
+}
